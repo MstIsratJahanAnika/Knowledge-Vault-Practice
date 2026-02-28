@@ -17,6 +17,10 @@
 .text-green1{
   color: #30B868;
 }
+
+.text-black{
+  color: #001931;
+}
 .btn-green-nav{
   background-color: #469165;
   padding: 12.5px 16px;
@@ -171,7 +175,6 @@
   /* border: 1px solid black; */
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06);
   padding: 70px 24px;
-  max-width: 322px;
   border-radius: 8px;
   /* display: flex; */
   justify-content: center;
@@ -207,5 +210,30 @@
 .second-brain-container{
   padding-top: 120px;
   padding-bottom: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.second-brain-text h3{
+  font-size: 48px;
+  font-weight: 700;
+}
+.second-brain-text .p2{
+  color: #627382;
+  line-height: 20px;
+  margin-top: 16px;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+.ol{
+  list-style: none;
+}
+.ol li{
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 /* second-brain-section end */
