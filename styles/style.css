@@ -1,0 +1,131 @@
+/* font  */
+*{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+  /* pura content a apply hobe  */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.text-white{
+  color: #FFFFFF;
+}
+.text-green{
+  color: #469165;
+}
+.text-green1{
+  color: #30B868;
+}
+.btn-green-nav{
+  background-color: #469165;
+  padding: 12.5px 16px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-green-nav:hover{
+  background-color: #105b36;
+}
+
+.btn-1{
+  gap: 10px;
+  background-color: #469165;
+  color: #FFFFFF;
+  padding: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+.btn-1:hover{
+  background-color: #35714f;
+  
+}
+
+.btn-transparent{
+  background-color: transparent;
+  padding: 12.5px 16px;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+.btn-transparent:hover{
+  background-color: #469165;
+}
+
+/* navbar start */
+
+#navbar{
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto; /*important part*/
+  padding-top: 16px;
+  padding-bottom: 14px;
+}
+
+.navbar-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.logo{
+  max-width: 139px;
+}
+
+.menu{
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+.menu a{
+  text-decoration: none;
+  color: black;
+}
+/* navbar end */
+
+/* banner section start */
+#banner{
+  margin: 0 auto;
+  background: url(../assets/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 115.5px;
+}
+.icon-gap1{
+  margin-left: 10px;
+}
+.icon-gap2{
+  margin-right: 10px;
+}
+.buttons-banner{
+  margin-right: 16px;
+  padding-bottom: 180px;
+}
+.access{
+  background-color: #FFFFFF;
+  border-radius:20px;
+  display: inline-flex;
+  align-items: center; 
+  justify-content: center;
+  /* flex-box -> jototuku content toto tuku tei apply hoy */
+  gap: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.banner-content h1{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 72px;
+}
+
+.text p{
+  margin-bottom: 32px;
+}
+/* banner section end */
