@@ -237,3 +237,77 @@
   gap: 6px;
 }
 /* second-brain-section end */
+
+/* think section start */
+.think-container{
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  background-color: #F7F6F2;
+  padding: 80px 0;
+  text-align: center;
+}
+.Think-text h3{
+  font-size: 40px;
+  font-weight: 700;
+  color: #001931;
+}
+.Think-text p{
+  padding: 16px 0 24px 0;
+  color: #627382;
+  font-size: 16px;
+}
+.think-btn p{
+  color: #627382;
+  padding-top: 16px;
+}
+/* think section end */
+
+/* footer section start */
+#footer-section{
+  background-color: #001931;
+  margin-top: 120px;
+  padding-top: 120px;
+}
+.footer-container{
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.first-part{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 80px;
+}
+.social-links p{
+  color: #FFFFFF;
+  padding-bottom: 16px;
+}
+.social-links ol li{
+  list-style: none;
+  display: inline-flex;
+  padding: 6px;
+  gap: 16px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+.social-links ol li a{
+  color: black;
+  cursor: pointer;
+}
+
+/* .hr-class{
+  color: #212529;
+} */
+
+.last-part{
+  border-top: 1px solid #627382;
+}
+.last-part p{
+  color: #FAFAFA;
+  font-size: 16px;
+  padding: 30px 0 30px 0;
+  text-align: center;
+}
+/* footer section end */
