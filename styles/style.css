@@ -129,3 +129,83 @@
   margin-bottom: 32px;
 }
 /* banner section end */
+
+/* card-section start */
+#card-section{
+  
+}
+.card-container{
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 38px;
+}
+.card-text{
+  padding-top: 50px;
+  padding-bottom: 44px;
+}
+.card-text h2{
+  font-size: 48px;
+  font-weight: 700;
+}
+.card-text p{
+  color: #627382;
+  line-height: 20px;
+  margin-top: 16px;
+  /* margin-bottom: 44px; */
+  font-size: 16px;
+
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 24px;
+  /* text-align: center; */
+  /* max-height: 300px; */
+}
+.card{
+  /* gap: 24px; */
+  /* border: 1px solid black; */
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06);
+  padding: 70px 24px;
+  max-width: 322px;
+  border-radius: 8px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+.card p{
+  color: #627382;
+  line-height: 20px;
+  margin-top: 16px;
+  margin-bottom: 44px;
+  font-size: 16px;
+}
+.card h3{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.card-img{
+  background-color: #F95555;
+  display: inline-flex;
+  padding: 14px;
+  border-radius: 50%;
+}
+/* card-section end */
+
+/* second-brain-section start */
+#second-brain-section{
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.second-brain-container{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+/* second-brain-section end */
